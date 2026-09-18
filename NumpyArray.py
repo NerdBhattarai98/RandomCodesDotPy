@@ -293,3 +293,48 @@ a = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
 # Scalar division
 # Component-wise multiplication
 # Component-wise operations
+
+# a = np.array([1,2,3,4,5])
+# b = np.array([1,2,3,4,5])
+
+# c = a+b #Vector Addtion
+# print(c)
+
+
+# a = np.array([3,4])
+
+# norm = np.linalg.norm(a)
+
+# print(norm)
+
+# dim2 = np.array([[1,2,3],[4,5,6]])
+# a = np.linalg.norm(dim2,axis=0)
+# b = np.linalg.norm(dim2,axis=1)
+# print(a)
+
+
+# print(b)
+
+#Unit Vector
+
+# vec1 = np.array([1,2,3])
+
+# mag = np.linalg.norm(vec1)
+
+# print("For Unit Vector")
+# uv = vec1/mag
+# print(uv)
+
+# #Magnitude + angle → components using NumPy
+
+# Magnitude = 10
+# angle = 45
+
+# angle_radian = np.deg2rad(angle)
+
+# X_Component = Magnitude * np.cos(angle_radian)
+# Y_Component = Magnitude * np.sin(angle_radian)
+
+
+# components = np.array([X_Component,Y_Component])
+# print(components)
