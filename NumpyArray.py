@@ -338,3 +338,33 @@ a = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
 
 # components = np.array([X_Component,Y_Component])
 # print(components)
+
+#np.sum() Calculates sum of array
+
+dim1 = np.array([1,2,3,4,5])
+dim2 = np.array([[1,2,3],[4,5,6]])
+
+# sum = np.sum(dim1)
+# print(sum)
+# sum = np.sum(dim2,axis = 0) #Along the column
+# print(sum)
+# sum = np.sum(dim2,axis = 1)#Along the row
+# print(sum)
+
+#np.mean() Mean Value of Array
+
+print(np.mean(dim1))
+
+print(np.mean(dim2,axis=0))
+print(np.mean(dim2,axis=1))
+
+#np.max() - Max Value
+print(np.max(dim1))
+print(np.max(dim2,axis=0))
+print(np.max(dim2,axis=1))
+
+#np.min()-Find Min Value
+print(np.min(dim1))
+print(np.min(dim2,axis=0))
+print(np.min(dim2,axis=1))
+
