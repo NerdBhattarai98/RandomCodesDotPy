@@ -1,3 +1,5 @@
+#My first Numpy Project and this feels gooooooood!
+
 import numpy as np
 
 num_vectors = int(input("Enter the number of vectors you want: "))
