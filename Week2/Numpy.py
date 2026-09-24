@@ -74,3 +74,5 @@ cosineuw  =dotp3/(umag*wmag)
 print(cosineuv)
 print(cosinevw)
 print(cosineuw)
+
+#Cosine Similarity
