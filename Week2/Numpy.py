@@ -50,11 +50,27 @@ import numpy as np
 
 #Dot Product of the Vectors
 
-u = np.array([3,-4])
-v = np.array([2,5])
+u = np.array([10,2,0])
+v = np.array([20,4,0])
+w = np.array([3,3,3])
 
 dotp1 = np.dot(u,v)
 print(dotp1)
 
-dotp2 = u @ v
+dotp2 = np.dot(v,w)
 print(dotp2)
+
+dotp3 = np.dot(u,w)
+print(dotp3)
+
+umag = np.linalg.norm(u)
+vmag = np.linalg.norm(v)
+wmag = np.linalg.norm(w)
+
+cosineuv  =dotp1/(umag*vmag)
+cosinevw  =dotp2/(vmag*wmag)
+cosineuw  =dotp3/(umag*wmag)
+
+print(cosineuv)
+print(cosinevw)
+print(cosineuw)
